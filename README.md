@@ -15,3 +15,28 @@ Este projeto demonstra a implementação de autenticação e autorização utili
 - **JPA / Hibernate**
 - **Postman (para testes REST)**
 - **Beekeeper Studio (gerenciador de banco de dados)**
+
+## 🎥 Fonte da Aula
+
+Este projeto foi baseado na seguinte aula no YouTube:  
+📺 [Spring Security 6, JWT e OAuth2 - por Programação Full Stack](https://youtu.be/nDst-CRKt_k?si=imcle-6m5VJ8IDEx)
+
+---
+
+## 📬 Endpoints REST
+
+| Método | Endpoint             | Descrição                  |
+|--------|----------------------|----------------------------|
+| POST   | `/users`             | Cadastro de novo usuário   |
+| POST   | `/login`             | Login e geração do JWT     |
+| GET    | `/users`             | Listar Usuários            |
+| POST   | `/tweets`            | Criar Tweet                |
+| DELETE | `/tweets/{id}`       | Deletar Tweet              |
+| DELETE | `/feed`              | Listar Tweets              |
+
+---
+
+## 🔐 Segurança
+- JWT Token é utilizado para autenticação de endpoints protegidos.
+- Após o login, um token JWT é retornado e deve ser enviado no header: Authorization: Bearer SEU_TOKEN
+- OAuth2 pode ser configurado para login social (Google, GitHub etc.), se desejado.
