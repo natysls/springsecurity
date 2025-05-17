@@ -9,8 +9,8 @@ Este projeto demonstra a implementação de autenticação e autorização utili
 - **Java 17+**
 - **Spring Boot**
 - **Spring Security 6**
-- **JWT (com jjwt ou outra lib semelhante)**
-- **OAuth2 (com suporte a provedores externos, se aplicável)**
+- **JWT 
+- **OAuth2 
 - **MySQL (Docker)**
 - **JPA / Hibernate**
 - **Postman (para testes REST)**
